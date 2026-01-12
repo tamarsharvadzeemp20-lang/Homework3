@@ -16,7 +16,7 @@ public class Product {
         return (price - (price * discount/100));
     }
     public void printInfo (){
-        System.out.println("Prodact wrice was " +price + " product discount was " + discount+"%"+ " and now product price is " + DiscountedPrice());
+        System.out.println("Prodact wrice was " +price + ", product discount was: " + discount+"%"+ " and now product price is : " + DiscountedPrice());
     }
 
 }

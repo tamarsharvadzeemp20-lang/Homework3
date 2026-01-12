@@ -16,7 +16,7 @@ public class Main {
         student1.setName();
         student1.setAge();
         student1.setGrade();
-        System.out.println("Student name is : " + student1.getName() + " the age is " + student1.getAge() +" and the final grade is " + student1.getGrade());
+        System.out.println("Student name is : " + student1.getName() + ", the age is " + student1.getAge() +" and the final grade is " + student1.getGrade());
         //ამოცანა მეოთხე
         Calculator calculator1 = new Calculator();
        calculator1.multiply(1,2);
@@ -33,13 +33,16 @@ public class Main {
         //ამოცანა მეშვიდე
         Product product1= new Product();
         product1.printInfo();
-        //ამოცანა მერვე
+        //ამოცანა მერვე, რადგან User  უკვე მქონდა კლასი შექმნილი მეორე კლასი გავაკეთე User2
         Address address1 = new Address();
         address1.printInfo();
         User2 userNew = new User2();
         userNew.printInfo();
-        //მეცხრე დავალება
-
-
+        //მეცხრე დავალება, რადგან სტუდენტ კლასი მაქვს ერთი სხვა სახელი დავარქვი
+        Student9 Student1 = new Student9();
+        Student9 Student2 = new Student9();
+        System.out.println("First students id is : " + Student1.getStudentID());
+        System.out.println("Second students ID is : " + Student2.getStudentID());
+        System.out.println(Student1.equals(Student2));
     }
 }
